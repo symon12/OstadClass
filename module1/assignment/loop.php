@@ -1,11 +1,32 @@
 <?php
+//entry control loop
 // for($x=1;$x<101;$x=$x+2){
 //     echo "$x my name is symon <br>";
 // }
 
-for($x=1;$x<=10;$x++){
-     echo $x;
- }
+// for($x=1;$x<=10;$x++){
+//      echo $x;
+     
+//  }
+
+//exit control loop
+// $i=0;
+//  while($i<=10){
+//     echo "$i <br/>";
+//     $i++;
+//  }
+
+// $i=0;
+// do{
+// echo $i;
+// $i++;
+// }
+// while ($i<=10);
+
+// $colors =array("red", "yellow", "green", "black");
+// foreach($colors as $eachItem){
+//     echo "$eachItem <br/>";
+// }
 
 
 // $name= "shrower  hossen symon ";
@@ -116,3 +137,4 @@ for($x=1;$x<=10;$x++){
 //     return $sum;
 // }
 // echo symon(12,12)+20;
+

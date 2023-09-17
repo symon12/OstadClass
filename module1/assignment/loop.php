@@ -1,6 +1,6 @@
 <?php
 //entry control loop
-// for($x=1;$x<101;$x=$x+2){
+// for($x=1;$x<101;$x=$x+33){
 //     echo "$x my name is symon <br>";
 // }
 
@@ -28,10 +28,13 @@
 //     echo "$eachItem <br/>";
 // }
 
+//string a koi ta akkor aca ata=========>
 
 // $name= "shrower  hossen symon ";
-// $word=strlen($name);
+// $word=strlen($name);               
 // echo $word;
+
+ // user define funtion=====>
  
 // function add(){
 //     $x = 10;
@@ -41,6 +44,9 @@
 // add() ;
 // add();
 // add();
+
+//funtion paramiter pass kora========>
+
 // function add($x,$y){
     
 //     echo   $x+$y;
@@ -49,16 +55,22 @@
 // add(2,4) ;
 // add(3,4) ;
 
+//function default valu --> single / multiply /all =====>
+
 // function add($x,$y,$c ,$d=100){
     
 //     echo   $x+$y+$c+$d;
 // }
 // add(1,4,3) ;
 
+//function paramiter data type float/int/bolean/string ======>
+
 // function twonumbr( int $number, string $name){
 //     echo "hey my old is $number and my name is $name ";
 // }
 // twonumbr(30 , "symon");
+
+//function strict mode=======>
 
 // declare(strict_types =1); //php 1mens true 0 in false
 
@@ -92,7 +104,7 @@
 // sum(1, 2, 3,4 ,5);
 
 // function sum(...$sum1){
-//     echo $sum1[1];  //sum a okkor gulu select kora 0 hola 1 okkor
+//     echo $sum1[1];  //sum a okkor gulu select kora 0 hola 1 okkor 1hola 2 okkor
 // }
 // sum(1, 2, 3,4 ,5);
 

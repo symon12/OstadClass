@@ -40,8 +40,8 @@
     <div class="continer">
     <h1>CALCULATOR</h1> 
     <form method="Post" action="">
-        <input class="input" name="number" type="text" placeholder="Inter Your Valu" required><br><br>
-        <input class="input" name="call" type="text" placeholder="Inter Your Valu" required><br><br>
+        <input class="input" name="number" type="text" placeholder ="Inter Your Valu"  value="<?php $number=isset ($_POST["number"])?$_POST["number"]:""; ?>" required><br><br>
+        <input class="input" name="call" type="text" value="<?php $call = !empty($_POST["call"])?  $_POST["call"]:"" ;?>"placeholder="Inter Your Valu" required><br><br>
         <select class="input" name ="optional">
             <option value="cal1">Addition</option>
             <option value="cal2">Subtraction</option>
@@ -53,8 +53,8 @@
     <div id="ruselt">
         <?php
         if($_SERVER["REQUEST_METHOD"]=="POST"){
-            $number = $_POST["number"];
-            $call = $_POST["call"];
+            $number = isset ($_POST["number"])? $_POST["number"]:"";
+            $call = !empty($_POST["call"])?  $_POST["call"]:"";
             $optional = $_POST["optional"];
             switch($optional){
                 case "cal1";

@@ -79,6 +79,9 @@
 //     echo "$allname<br/>";
 // }
 
+
+//==============================================>>>>
+
 //entry control loop
 // for($x=1;$x<101;$x=$x+33){
 //     echo "$x my name is symon <br>";
@@ -152,7 +155,7 @@
 
 //function strict mode=======>  php Multi params data type -> hinting=========>
 
-// declare(strict_types =1); //php 1mens true 0 in false
+// declare(strict_types =1);   //php 1mens true 0 in false
 
 // function myself( int $number, string $name){
 //     echo "hey my old is $number and my name is $name ";
@@ -187,7 +190,7 @@
 // }
 // sum(1, 2, 3,4 ,5);
 
-//php select funtion
+//php select funtion==============>
 
 // function sum(...$sum1){
 //     echo $sum1[1];  //sum a okkor gulu select kora 0 hola 1 okkor 1hola 2 okkor
@@ -244,27 +247,114 @@
 //scop===> local scop | global scop
 
 
-function FunctionName(){
-    $mes= "hello would";
-    echo $mes;
-}
-FunctionName();
+// function FunctionName(){
+//     $mes= "hello would";
+//     echo $mes;
+// }
+// FunctionName();
 
-$name="my name is symon";
+// $name="my name is symon";
 
-function varr(){
-    global $name;
-    echo $name;
-}
-varr();
+// function varr(){
+//     global $name;
+//     echo $name;
+// }
+// varr();
+
+//static scope=========>
+
+// function increament(){        //jodi lacal variable satha staic scope dai tahola joto bar call haba oor last valu theka abr start hoba 
+//     static $num=0;
+//     $num++;
+//     echo $num;
+// }
+// increament();
+// increament();
+// increament();
+
+//&scope bypass ==========>
+
+// $name="symon";
+// function add(&$name){
+//     $name="rifat";
+    
+// }
+// add($name);
+// echo $name;
+
 
 //call back function=========>
- hishfskh
 
+// function add($x1, $x2 ){
+// echo"Adding $x1 and $x2";
+// }
+// function divide($x1, $x2 ,){
+// echo "Dividing $x1 or $x2";
+// }
+// function process($n1,$n2,$cb){
+//     if(is_callable($cb)){
+//         $cb($n1,$n2);
+//     }else{
+//         echo "they are not found $cb";
+//     }
+// }
+// process(10,20,"divide",);
 
+// $num=[1,2,3,4,5,6,7,8,9,10];
 
+// function addfun($f){
+//     if($f%2==0){
+//         return true;
+//     }return false;
+    
+// }
+// $bolean=array_filter($num,"addfun");
+// print_r($bolean);
+
+// $num = 0;  
+// $n1 = 0;  
+// $n2 = 1;  
+// echo "<h3>Fibonacci series for first 12 numbers: </h3>";  
+// echo "\n";  
+// echo $n1.' '.$n2.' ';  
+// while ($num < 10 )  
+// {  
+//     $n3 = $n2 + $n1;  
+//     echo $n3.' ';  
+//     $n1 = $n2;  
+//     $n2 = $n3;  
+//             $num = $num + 1;}
 
 
 
     
+input(1, 10);
+function input($startPoint, $endPoint)
+{
+    evenNumber($startPoint, $endPoint);
+    // evenNumberStar($startPoint, $endPoint);
+}
 
+function evenNumber($startPoint, $endPoint)
+{
+    for ($i = $startPoint; $i <= $endPoint; $i++) {
+
+        if ($ar = $i % 2 == 0) {
+
+            echo $i;
+
+            for ($j = 1; $j <= $i - 1; $j++) {
+            }
+            if ($j == $endPoint) {
+                echo ".";
+            } else {
+                echo ", ";
+            }
+        }
+    }
+
+    echo PHP_EOL;
+}
+            
+
+    

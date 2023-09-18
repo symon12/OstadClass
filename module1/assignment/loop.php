@@ -1,118 +1,74 @@
 <?php
-// for($x=1;$x<101;$x=$x+2){
-//     echo "$x my name is symon <br>";
-// }
+// $name="hello my name is saimon";
+//  $namev=strlen($name);
+//  echo $namev;
 
-for($x=1;$x<=10;$x++){
-     echo $x;
- }
-
-
-// $name= "shrower  hossen symon ";
-// $word=strlen($name);
-// echo $word;
- 
 // function add(){
-//     $x = 10;
-//     $y =12;
-//     echo  "<br> $x+$y";
+//     $x=10;
+//     $y=20;
+
+//     echo $x + $y." <br/> ";
 // }
-// add() ;
 // add();
 // add();
-// function add($x,$y){
-    
-//     echo   $x+$y;
-// }
-// add(1,4) ;
-// add(2,4) ;
-// add(3,4) ;
+// add();
 
-// function add($x,$y,$c ,$d=100){
-    
-//     echo   $x+$y+$c+$d;
-// }
-// add(1,4,3) ;
+// function add( $x,$y,$z){
+//     echo $x+$y+$z;
 
-// function twonumbr( int $number, string $name){
-//     echo "hey my old is $number and my name is $name ";
 // }
-// twonumbr(30 , "symon");
+// add(12,23,4);
 
-// declare(strict_types =1); //php 1mens true 0 in false
-
-// function myself( int $number, string $name){
-//     echo "hey my old is $number and my name is $name ";
+// function addfuntion($x , $y,$z=10){
+//     echo $x+$y+$x;
 // }
-// myself("30" , "symon"); //strict mode on
 
-// for($x=1; $x<=5 ;$x++){
-//     echo $x . PHP_EOL  ;
+// addfuntion(10,20,);
+
+// function addfun(string $name , int $number){
+// echo "hello my name is $name and my age $number";
 // }
-// for($i=1; $i<=2; $i++){
-//     echo "Namta :$i <br />";
-//     for($j=1; $j<=10; $j++ ){
-//         $num= $i*$j ;
-//         echo "$i x $j =$num <br>";
-//         // exit;
+// addfun("symon",20);
+
+// declare(strict_types=1);
+
+// function addfun(string $name , int $number){
+//     echo "hello my name is $name and my age $number";
 //     }
-//     echo "<br />";
+//     addfun("symon","20");
+
+
+// function FunctionName(?string $name){
+//     echo $name;
 // }
 
-// function symon(?string $text){
-//     echo $text;
+// FunctionName("symon");
+// FunctionName(null);
+
+// function FunctionName(...$sum) {
+//     echo array_sum($sum);
 // }
-// symon("samir");
-// symon(null);
+// FunctionName(1,2,3,4,);
 
-// function sum(...$sum1){
-//     echo array_sum($sum1);
-// }
-// sum(1, 2, 3,4 ,5);
+// function FunctionName(...$sum) {
+// //     echo $sum[1];
+// // }
+// // FunctionName(1,2,3,4,);
 
-// function sum(...$sum1){
-//     echo $sum1[1];  //sum a okkor gulu select kora 0 hola 1 okkor
-// }
-// sum(1, 2, 3,4 ,5);
+// $symon=fn($x,$y)=>$x+$y;
+// echo $symon(10,20);
 
-//num vehin funtion
-
-// (function () {
-//     $age =1;
-//     $age2= 2;
-//     echo $age +$age2;
-
-// }
-// );
-// ();
-
-// $fun=(function () {
-//     $age =1;
-//     $age2= 2;
-//     echo $age +$age2;
-
-// }
-// );
-// $fun();
-
-//arrow funtion
-
-// $bada= fn($x,$y)=>$x +$y;
-
-// echo $bada(10,20);
-
-//fruntion  retun
-
-// function symon($x , $y):float|int|bool|string{    //void lekla sa kicu retun korba na
-//     $sum = ($x+$y)/2;
+// function FunctionName($num,$num2) : float|bool|string|int{
+//     $sum=($num+$num2)/2;
 //     return $sum;
 // }
-// echo symon(12,12)+10;
+// echo FunctionName(10,20)+20;
 
-//null retun type and smart way
-
-// function symon($s,$k):?int{
-//     $sum= ($s+$k)/2;
+// function FunctionName($num,$num2) :void{
+//     $sum=($num+$num2)/2;
 //     return $sum;
 // }
-// echo symon(12,12)+20;
+// echo FunctionName(10,20)+20;
+
+
+

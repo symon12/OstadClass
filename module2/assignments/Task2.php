@@ -1,10 +1,11 @@
 
-
 <?php
-for($num=1;$num<51;$num=$num+1){
-    if($num==5){
+
+
+for($num=1;$num<=50;$num=$num+1){
+    if($num%5 == 0){
         continue;
     }
-    echo "<button>$num</button> \n ";
+    echo $num.", ";
 }
-?>
+

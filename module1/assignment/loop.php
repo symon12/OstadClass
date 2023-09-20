@@ -3,10 +3,10 @@
 //     echo "$x my name is symon <br>";
 // }
 
-for($x=1;$x<=10;$x++){
-     echo $x;
-    //  new code
- }
+// for($x=1;$x<=10;$x++){
+//      echo $x;
+//     //  new code
+//  }
 
 
 // $name= "shrower  hossen symon ";
@@ -117,3 +117,9 @@ for($x=1;$x<=10;$x++){
 //     return $sum;
 // }
 // echo symon(12,12)+20;
+
+
+function sum(...$sum1){
+    echo $sum1[1] ;  
+}
+sum(1, 2, 3,4 ,5);

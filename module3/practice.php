@@ -136,9 +136,10 @@
 
 //array replace kora=======>
 
-// $fruits=array("banana","apple","malta");
-// $fruits_jog=array_splice($fruits,1,2,array("dragun","cerry"));
+$fruits=array("banana","apple","malta");
+$fruits_jog=array_splice($fruits,1,2,array("dragun","cerry"));
 // print_r($fruits);
+// var_dump($fruits);
 
 //array slice kora print kora=======>
 
@@ -181,13 +182,31 @@
 //     echo "the number is not here";
 // }
 
-$name=array("symon","tumpa","rumapa","mity");
+// $name=array("symon","tumpa","rumapa","mity");
 
-if(is_array($name)){
-    echo "It's array";
-}
+// if(is_array($name)){
+//     echo "It's array";
+// }
 
+// $arrays=["frist_name"=>"shrower","last_name"=>"symon"];
+// if(array_key_exists("frist_name",$arrays)){
+//     echo "Key 'first' exists in the array.";
+// }
 
+// $arrays=["frist_name"=>"shrower","last_name"=>"symon"];
+// if(array_search("shrower",$arrays)){
+//     echo "valus 'first' exists in the array.";
+// }
 
+// =============================================
+// Array Transformation Functions
 
+//number a square kora=========>
+
+// function squareds($n){
+//     return $n*$n;
+// }
+// $arrays=array(1,2,3,4);
+// $squred_num=array_map('squareds',$arrays);
+// print_r($squred_num);
 

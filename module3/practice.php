@@ -134,8 +134,38 @@
 // $r_fruits=array_shift($fruits);
 // print_r($fruits);
 
-r
+//array replace kora=======>
 
+// $fruits=array("banana","apple","malta");
+// $fruits_jog=array_splice($fruits,1,2,array("dragun","cerry"));
+// print_r($fruits);
+
+//array slice kora print kora=======>
+
+// $fruits=array("banana","carry","apple","stove","dragun");
+// $fruits=array_slice($fruits,1,2);
+// print_r($fruits);
+
+// ==========================================
+// Array Information Functions
+
+//number count korba=======>
+
+// $count_num=array(1,2,3,4);
+// echo count($count_num);
+
+// $sizof_num=array(1,2,3,4,5,6,8);
+// echo sizeof($sizof_num);
+
+//array jog kora ========>
+
+// $arrays=array(1,2,3,4,5,3,7);
+// echo array_sum($arrays);
+
+//array gun kora========>>
+
+// $arrays=array(1,2,3,4);
+// echo array_product($arrays);
 
 
 

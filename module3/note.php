@@ -64,7 +64,7 @@
 
 // //Associative Multidimensional Array
 // $users = array(
-//     "john" => array(
+//     "john" => array(/.
 //         "age" => 25,
 //         "email" => "john@example.com"
 //     ),
@@ -75,7 +75,6 @@
 // );
 
 // echo $users["john"]["email"];
-
 
 // //Looping Through Multidimensional Arrays
 // foreach($users as $username => $details) {
@@ -102,6 +101,7 @@
 // # array_keys() - Returns all the keys from the array.
 // $assoc = array("a" => "apple", "b" => "banana", "c" => "cherry");
 // $keys = array_keys($assoc);
+// echo $keys;
 
 
 // # array_combine() - Combines two arrays: one for keys and the other for values.

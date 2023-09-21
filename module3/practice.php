@@ -167,6 +167,25 @@
 // $arrays=array(1,2,3,4);
 // echo array_product($arrays);
 
+//array vetora kono number aca kina ta chek korba =========>
+
+// $numbers=array(1,2,3,4,5,6);
+// if(in_array(3,$numbers)){
+//     echo "the number is here";
+// }
+
+// $fruits=array("banana","carry","apple","stove","dragun");
+// if(in_array("boy",$fruits,)){
+//     echo "the fruits is here";
+// }else{
+//     echo "the number is not here";
+// }
+
+$name=array("symon","tumpa","rumapa","mity");
+
+if(is_array($name)){
+    echo "It's array";
+}
 
 
 

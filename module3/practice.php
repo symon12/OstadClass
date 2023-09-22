@@ -210,3 +210,34 @@ $fruits_jog=array_splice($fruits,1,2,array("dragun","cerry"));
 // $squred_num=array_map('squareds',$arrays);
 // print_r($squred_num);
 
+//array filter hocca jor number define kora=======>
+
+
+// function is_even($n){
+//     return $n%2==0;
+
+// }
+// $numbers=array(1,2,3,4,5,6,8,9,10);
+// $evenNumber=array_filter($numbers,"is_even");
+//  print_r($evenNumber);
+
+//array jog kora==========>>
+
+// $array1=["apple", "banana","stove"];
+// $array2=["mango", "dragun","pineapple"];
+
+// $array_jog=array_merge($array1,$array2);
+// print_r($array_jog);
+
+//array name replace kora onno name bosano=========>
+
+$array_rep=array("mango","pineapple","stove");
+$arrays_replac=array(2=>"banana",0=>"dragun");
+$array_replacement=array_replace($array_rep,$arrays_replac);
+print_r($array_replacement);
+
+
+
+
+
+

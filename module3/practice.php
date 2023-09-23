@@ -136,8 +136,8 @@
 
 //array replace kora=======>
 
-$fruits=array("banana","apple","malta");
-$fruits_jog=array_splice($fruits,1,2,array("dragun","cerry"));
+// $fruits=array("banana","apple","malta");
+// $fruits_jog=array_splice($fruits,1,2,array("dragun","cerry"));
 // print_r($fruits);
 // var_dump($fruits);
 
@@ -231,10 +231,43 @@ $fruits_jog=array_splice($fruits,1,2,array("dragun","cerry"));
 
 //array name replace kora onno name bosano=========>
 
-$array_rep=array("mango","pineapple","stove");
-$arrays_replac=array(2=>"banana",0=>"dragun");
-$array_replacement=array_replace($array_rep,$arrays_replac);
-print_r($array_replacement);
+// $array_rep=array("mango","pineapple","stove");
+// $arrays_replac=array(2=>"banana",0=>"dragun");
+// $array_replacement=array_replace($array_rep,$arrays_replac);
+// print_r($array_replacement);
+
+// for ($x=1; $x<=5; $x=$x+1)   
+// {  
+//   $factorial = $x * $x; 
+//   echo $factorial; 
+// }  
+
+// $sum = 0;
+// for($i=0; $i<10; $i++){
+//     $sum += $i*$i;
+//     $avarage = $sum /$i;
+// }
+
+//string ka array ta convert============>
+
+// $name=explode(', ',"symon, tumpa, rumpa");
+
+// var_dump($name);
+// echo $name[1];
+
+//array ka string convert kora=============>>
+
+// $name=explode(', ',"symon, tumpa, rumpa");
+// $nameString=join(", ",$name);
+// echo $nameString;
+
+// $name=preg_split('/(, |,)/',"symon, tumpa, rumpa, mitu,karim,habib, karim");
+// $nameString=join(", ",$name);
+// print_r($name);
+// echo $nameString;
+
+
+
 
 
 

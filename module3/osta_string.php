@@ -69,7 +69,7 @@
 
 // ✅Resizing associative arrays
 // $student = ['name' => 'Alice', 'age' => 22, 'grade' => 'A'];
-// unset($student['grade']); 
+// unset($student['name']); 
 // print_r($student);
 
 
@@ -296,7 +296,7 @@
 
 // $string = "Hello, World!";
 // $position = strpos($string, "World");
-// if ($position !== false) {
+// if ($position == true) {
 //     echo "Found 'World' at position: " . $position; 
 // } else {
 //     echo "Not found";

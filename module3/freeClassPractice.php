@@ -152,10 +152,31 @@ $student=[
 
 //====================================>>>>
 
-for($i=0;$i<count($student);$i=$i+1){
-echo $student[$i]."\n";
-}
+// for($i=0;$i<count($student);$i=$i+1){
+// echo $student[$i]."\n";
+// }
 
 
+// $array_key=["frist"=>"shrower","secand"=>"hossen" ];
+// $keys=array_search("hossen",$array_key);
+// echo $keys;
+
+// for($i=0;$i<1;$i=$i+1){
+//     echo array_search("shrower",$array_key);
+// }
+// function keys($array_key) {
+//     echo $array_key;
+    
+// }
+// keys(array_search("hossen",$array_key));
+
+// if($keys=array_search("shrower",$array_key)){
+//     echo "the element : $keys";
+// }else{
+//     echo "sorry not pound";
+// }
+
+$array_hint=array("name"=>"symon","age"=>19,"bull"=>true ,"float"=>30.3);
+var_dump($array_hint);
 
 

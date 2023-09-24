@@ -188,10 +188,18 @@
 //     echo "It's array";
 // }
 
-// $arrays=["frist_name"=>"shrower","last_name"=>"symon"];
-// if(array_key_exists("frist_name",$arrays)){
+$arrays=["frist_name"=>"shrower","last_name"=>"symon"];
+// if(array_key_exists("last_name",$arrays)){
 //     echo "Key 'first' exists in the array.";
+// }else{
+//     echo "Key 'first' not exists in the array.";
 // }
+
+// function defined_fun($arrays){
+//     echo "the frist name is $arrays";
+// }
+// defined_fun(array_key_exists("shrower",$arrays));
+
 
 // $arrays=["frist_name"=>"shrower","last_name"=>"symon"];
 // if(array_search("shrower",$arrays)){
@@ -266,11 +274,48 @@
 // print_r($name);
 // echo $nameString;
 
+//unset variable hocca kono jai variable declared korba seta bada ar sob valu thakba
+
+// $unsets= [ "name"=>"apple","age"=>17,"country"=>"bangladesh"];
+// unset($unsets["age"]);
+// print_r($unsets);
+
+//neumaric arrays========================>
+
+// $defined=["flower","fish","fruts"];
+// echo $defined[2];
+
+//array reduce means call back funtion============>
+
+// function call_back($call,$calls){
+//     return $call ." , " .$calls;
+
+// }
+// $a=array("docts","cat","fox");
+// print_r(array_reduce($a,"call_back"));
 
 
 
+// ❎❎=================================================================❎❎
+// ❎❎=================================================================❎❎
+// ❎❎=================================================================❎❎
+// ❎❎=================================================================❎❎
 
 
+// ❎Handling Sting 
 
+// $name="shrower hossen symon";
+// $upperCase=strtoupper($name);
+// echo $upperCase;
 
+// $name="SHROWER HOSSEN SYMON";
+// $lowerCase=strtolower($name);
+// echo $lowerCase;
 
+// $leanth="Shrower hossen symon";
+// $leanth_position=strpos($leanth,"symon");
+// echo $leanth_position;
+
+$frist_word="hello ,symon";
+$sub_string=substr($frist_word,6,5);
+echo $sub_string;

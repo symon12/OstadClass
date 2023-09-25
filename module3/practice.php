@@ -312,10 +312,148 @@ $arrays=["frist_name"=>"shrower","last_name"=>"symon"];
 // $lowerCase=strtolower($name);
 // echo $lowerCase;
 
-// $leanth="Shrower hossen symon";
-// $leanth_position=strpos($leanth,"symon");
-// echo $leanth_position;
+//ata mana hocca 'hossen' position koto word pora aca oi ta ar korba=========> 
 
-$frist_word="hello ,symon";
-$sub_string=substr($frist_word,6,5);
-echo $sub_string;
+// $leanth="Shrower hossen symon";
+// $leanth_position=strpos($leanth,"hossen");
+// print_r($leanth_position) ;
+
+// $frist_word="hello ,symon";
+// $sub_string=substr($frist_word,6,5);
+// echo $sub_string;
+
+// $join="Hello, My, Name, Is, Symon";
+// $join_string_array=explode(",",$join);
+// print_r($join_string_array)  ;
+
+// $name1="shrower";
+// $name2="hossen";
+// $fullName=$name1." ".$name2;
+// echo $fullName;
+
+//trim hocca frist a kono space thakle oita remove korba;
+
+
+// $name="    shrower hossen";
+// $hight_space=trim($name);
+// echo $hight_space;
+
+//select korta hoba akhana "would" dia diclear kora ar pora univers dia would replace kora============>
+
+// $text="hello would";
+// $newLine=str_replace("would","univers" ,$text);
+// echo $newLine;
+
+//word olta baba lekha==============>
+
+// $name="nomys nessoh reworhs ";
+// $replace=strrev($name);
+// echo $replace;
+
+//Password Generator====================<>
+
+// function genaratorPassword($leanth){
+// $character="1234567890_-+=!'£$%^&*(){}[]qwertyuiopasdfghjkl;:@'~#|\zxcvbnm,.?/QWERTYUIOPASDFGHJKL";
+// $passowrd="";
+// for($i=0;$i<$leanth;$i=$i+1){
+//     $passowrd .=$character[rand(0,strlen($character)-1 )];
+// }
+// return $passowrd;
+// }
+// echo genaratorPassword(15);
+//string ka array word convert kora================> 
+
+
+// $name="symon, rumpa, abir";
+// $strSpi=str_split($name);
+// print_r($strSpi);
+
+// 24/9/2023=======================>🏛️
+
+//heredoc onak gula array jog kora=================>
+
+// $fristName="shrower";
+// $middleName="hossen";
+// $lastName="symon";
+// $longText= <<<ABCD
+// Frist Name:{$fristName} 
+// Middle Name:{$middleName}
+// Last Name: {$lastName}
+// Designation: Developer
+// ABCD;
+// echo $longText;
+
+// $longText= <<<ABCD
+// {$fristName} {$middleName} {$lastName} 
+
+// Designation: Developer
+
+// ABCD;
+
+// echo $longText;
+
+$string="hello would";
+ $fruits=["apple","banana" ,"cerry"];
+ echo $fruits[1]."\n";
+//  echo substr($string,0,8);
+ echo substr($string,0)."\n";
+ echo substr($string,-6)."\n";
+ echo strlen($string),"\n";
+
+ $strings="my name is symon ";
+ $len=strlen($strings);
+ for($i=0;$i<$len;$i++){
+    echo $len ."\n";
+ }
+
+ //kothai obosthan korba kon number position a ava============>
+
+ $name="who are you";
+//  echo strpos($name,"you"."\n" );
+//  echo strpos($name,"e",6);
+
+if(strpos($name,"who")!==false){
+echo "found";
+}else{
+    echo "not pound";
+}
+echo "$name \n";
+
+//line replace korba ba sentence replace korba===============>
+
+$name1="symon hossen shrower";
+$age= "symon";
+$country="abir";
+
+$replace=str_replace($age,$country,$name1);
+echo $replace ."\n";
+
+//and aro sohoj upai replace sentence============>
+
+$name2="md abir islam";
+$replaceName=strtr($name2,[
+"md"=>"shrower",
+"abir"=>"hossen",
+"islam"=>"symon"
+]
+);
+echo $replaceName ."\n";
+
+//word repat kora==========>
+
+$repet="!";
+// for($i=0;$i<10;$i++){
+//     echo $repet;
+// }
+// echo str_repeat($repet,4);
+
+for($i=10;$i>0;$i--){
+    echo str_repeat($repet,$i)."\n";
+}
+
+
+
+
+
+
+

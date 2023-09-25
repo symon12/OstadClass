@@ -112,7 +112,7 @@
 // change($name);
 // echo $name;
 
-$number=[1,2,3,4,5,6,7];
+// $number=[1,2,3,4,5,6,7];
 // function squre($n){
 //     return $n*$n;
 // }
@@ -129,13 +129,13 @@ $number=[1,2,3,4,5,6,7];
 //         echo $number[$i];
 // }
 
-$student=[
-    "symon",
-    "tumpa",
-    "rumpa",
-    123
+// $student=[
+//     "symon",
+//     "tumpa",
+//     "rumpa",
+//     123
 
-];
+// ];
 
 
 // $student[3]="mitu";

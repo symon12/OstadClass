@@ -30,3 +30,4 @@ function calculatorAveragesNumber($grade){
 calculatorAveragesNumber($studentGread);
 
 
+

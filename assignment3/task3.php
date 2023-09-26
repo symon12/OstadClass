@@ -1,8 +1,8 @@
 <?php
+echo "Task 3: Array Sorting \n";
 function sortGradesDescending($grades) {
     arsort($grades);
 
-    echo "Sorted Grades in Descending Order:\n";
     print_r($grades);
 }
 

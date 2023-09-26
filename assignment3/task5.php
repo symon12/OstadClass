@@ -5,9 +5,7 @@ function passwordGenerate($length){
     $passwordCreate="ABCDEFijklmnopqrst789!@#uvwxyzGHIJKLMNOPQRSTUabcdefghVWXYZ0123456%^&*()_+'";
     $password ='';
     for($p=0;$p<$length;$p++){
-        $randomIndex=rand(0,strlen($length)-1);
-        $password .=$passwordCreate[$randomIndex];
-
+        $password.=$passwordCreate[rand(0,strlen($passwordCreate)-1)];
     }
     return $password;
 }

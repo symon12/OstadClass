@@ -15,10 +15,5 @@ function passwordGenerate($length){
 }
 $GeneratePassword=passwordGenerate(12);
 echo "Your Password : $GeneratePassword";
-flskjlk
-
-
-
-
 
 

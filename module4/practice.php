@@ -7,3 +7,4 @@ function hello($name){
     }
 }
 hello(11);
+echo "hello";

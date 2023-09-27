@@ -1,5 +1,8 @@
 <?php
-echo "Task 2: Array Manipulation <br/><br/>";
+/*Task 2: Array Manipulation
+
+Create an array called $numbers containing the numbers 1 to 10. Write a PHP function which takes the "$numbers" array as an argument to remove the even numbers from the array and print the resulting array.
+*/
 
 function EvenPush($num){
 return $num%2!==0;

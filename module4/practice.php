@@ -252,3 +252,4 @@ $obj=new gets();
 
  echo $obj;
 
+ dd

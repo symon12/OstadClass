@@ -1,4 +1,7 @@
 <?php
+
+//OOP==================================>>>>>>
+
 // php class mathod opp
 
 // class addition{
@@ -8,7 +11,7 @@
 //     }
 // }
 // $obj= new addition();
-// //$obj->addTwo(3,4);
+// $obj->addTwo(3,4);
 // echo $obj->name;
 
 //class ar betor a call kora ba print kora
@@ -22,7 +25,7 @@
 // $obj= new addition();
 // $obj->demo();
 
-//constructor ba aka music mathod bola === ata nega neaga ka call kora ==============>>
+//constructor ba aka masic mathod bola === ata neja neja ka call kora ==============>>
 
 // class name{
 //     public function __construct(){
@@ -159,3 +162,93 @@
 
 // $obj=new myclass();
 // $obj->names();
+
+// $line1="apple";
+
+
+// $find = [];
+// $ruselt = "";
+// for($i=0;$i<strlen($line1);$i++){
+//     // print $line1[$i];
+//     if($find [$line1[$i]]==false){
+//     $find = [$line1[$i]]=true;
+// }
+// }
+// print_r($find);
+
+//oop type hint related problem=============>>>>
+
+// class hints{
+//     public ? int $number=null;
+// }
+
+// $obj=new hints();
+// var_dump($obj->$number);
+
+//static for class or constend sudu class access neta parba php ta ar kono jaigai access neta parbe na =======>
+
+// class statics{
+//     // public static int $name=89;
+//     const MONTH_IN_YEAR=12;
+// }
+
+// $new_obj= new statics();
+// print statics::$name ."\n";
+// statics::$name++;
+// print statics::$name;
+// print statics::MONTH_IN_YEAR;
+
+//destruct const ar moto ========>
+
+// class gets{
+//     private static $number=0;
+//     public function __construct()
+//     {
+//         self::$number++;
+//     }
+//     public function __destruct()
+//     {
+//         self::$number--;
+//     }
+//     public function get_fun(){
+//         return self::$number;
+//     }
+// }
+// $obj=new gets();
+// $obj2=new gets();
+// unset($obj2);//ata dia property nai ba muca fela
+// print $obj->get_fun();
+
+//get or set public a class bira access neta parbo =============>>>>
+
+// class gets{
+//     private string $number;
+//     public function __set($name,$value)
+//     {
+//         $this->$name=$value;
+//     }
+//     public function __get($name)
+//     {
+//         return $this->$name;
+//     }
+// }
+// $obj=new gets();
+
+//  $obj->number="123";
+//  print $obj->number;
+
+//to string hocca oop ta echo kora>>>>>>>>>>>>>>
+
+
+class gets{
+
+    public function __toString()
+    {
+        
+        return "gets number :";
+    }
+}
+$obj=new gets();
+
+ echo $obj;
+

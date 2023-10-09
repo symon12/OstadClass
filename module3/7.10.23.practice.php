@@ -281,7 +281,7 @@
 // $array2 = ["green" => 4, "yellow" => 7];
 // $result=array_intersect_key($array1,$array2 );
 // print_r($result);
-d
+dd
 // $input=[1,2,3,4,3,2,2,3,4,3,6,7];
 // $output=array_unique($input);
 // print_r($output);

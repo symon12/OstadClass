@@ -15,7 +15,7 @@
 //     echo $arry1[$i] ."<br/>";
 // }
 
-//foreach loop dia array count kora========> 
+//foreach loop ""array ar jonno"" dia array count kora========> 
 
 // $arry1=array("mitu","tumpa","symon","rumpa");
 // $arry2=["mitu","tumpa","symon","rumpa"];
@@ -33,7 +33,9 @@
 
 // echo $man["fristName"];
 
-// foreach($man as $key=> $value);
+// foreach($man as $key=> $value){
+//     echo "$key : $value \n";
+// };
 
 //multidimensional array======>
 
@@ -90,11 +92,12 @@
 // $arrays =array('a'=>'apple','b'=>'ball','c'=>'cat');
 // $values=array_values($arrays);
 
-//assoc sohojogi
+//assoc 
 
 // $assoc = array("a" => "apple", "b" => "banana", "c" => "cherry");
 // $values = array_values($assoc);
 // print_r($values);
+
 
 // $assoc = array("a" => "apple", "b" => "banana", "c" => "cherry");
 // $values = array_keys($assoc);
@@ -168,6 +171,11 @@
 // $arrays=array(1,2,3,4);
 // echo array_product($arrays);
 
+//array count kora ata 1 thaka count kora---------------->>>>
+
+// $counts=array(1,2,3,4,5,"symon","tumpa","rumpa");
+// echo sizeof($counts);
+
 //array vetora kono number aca kina ta chek korba =========>
 
 // $numbers=array(1,2,3,4,5,6);
@@ -182,13 +190,16 @@
 //     echo "the number is not here";
 // }
 
-// $name=array("symon","tumpa","rumapa","mity");
+//is array hocca parent array ka check kora==================>>>
 
-// if(is_array($name)){
+// $name=array("symon","tumpa","rumapa","mity");
+// $names=array("symon","tumpa","rumapa","mity");
+
+// if(is_array($names)){
 //     echo "It's array";
 // }
 
-$arrays=["frist_name"=>"shrower","last_name"=>"symon"];
+// $arrays=["frist_name"=>"shrower","last_name"=>"symon"];
 // if(array_key_exists("last_name",$arrays)){
 //     echo "Key 'first' exists in the array.";
 // }else{
@@ -196,6 +207,7 @@ $arrays=["frist_name"=>"shrower","last_name"=>"symon"];
 // }
 
 // function defined_fun($arrays){
+    
 //     echo "the frist name is $arrays";
 // }
 // defined_fun(array_key_exists("shrower",$arrays));
@@ -253,7 +265,8 @@ $arrays=["frist_name"=>"shrower","last_name"=>"symon"];
 // $sum = 0;
 // for($i=0; $i<10; $i++){
 //     $sum += $i*$i;
-//     $avarage = $sum /$i;
+//     $avarage=$sum/$i;
+//     echo $avarage;
 // }
 
 //string ka array ta convert============>
@@ -265,13 +278,18 @@ $arrays=["frist_name"=>"shrower","last_name"=>"symon"];
 
 //array ka string convert kora=============>>
 
+// $arrays=array("symon , rumpa , tumpa");
+// $stringArray=implode(', ', $arrays);
+// var_dump($stringArray);
+// echo $stringArray;
+
 // $name=explode(', ',"symon, tumpa, rumpa");
 // $nameString=join(", ",$name);
 // echo $nameString;
 
-// $name=preg_split('/(, |,)/',"symon, tumpa, rumpa, mitu,karim,habib, karim");
+// $name=preg_split('/(,|,)/',"symon, tumpa, rumpa, mitu,karim,habib, karim");
 // $nameString=join(", ",$name);
-// print_r($name);
+// // print_r($nameString);
 // echo $nameString;
 
 //unset variable hocca kono jai variable declared korba seta bada ar sob valu thakba
@@ -392,64 +410,64 @@ $arrays=["frist_name"=>"shrower","last_name"=>"symon"];
 
 // echo $longText;
 
-$string="hello would";
- $fruits=["apple","banana" ,"cerry"];
- echo $fruits[1]."\n";
-//  echo substr($string,0,8);
- echo substr($string,0)."\n";
- echo substr($string,-6)."\n";
- echo strlen($string),"\n";
+// $string="hello would";
+//  $fruits=["apple","banana" ,"cerry"];
+//  echo $fruits[1]."\n";
+// //  echo substr($string,0,8);
+//  echo substr($string,0)."\n";
+//  echo substr($string,-6)."\n";
+//  echo strlen($string),"\n";
 
- $strings="my name is symon ";
- $len=strlen($strings);
- for($i=0;$i<$len;$i++){
-    echo $len ."\n";
- }
+//  $strings="my name is symon ";
+//  $len=strlen($strings);
+//  for($i=0;$i<$len;$i++){
+//     echo $len ."\n";
+//  }
 
- //kothai obosthan korba kon number position a ava============>
+//  //kothai obosthan korba kon number position a ava============>
 
- $name="who are you";
-//  echo strpos($name,"you"."\n" );
-//  echo strpos($name,"e",6);
+//  $name="who are you";
+// //  echo strpos($name,"you"."\n" );
+// //  echo strpos($name,"e",6);
 
-if(strpos($name,"who")!==false){
-echo "found";
-}else{
-    echo "not pound";
-}
-echo "$name \n";
-
-//line replace korba ba sentence replace korba===============>
-
-$name1="symon hossen shrower";
-$age= "symon";
-$country="abir";
-
-$replace=str_replace($age,$country,$name1);
-echo $replace ."\n";
-
-//and aro sohoj upai replace sentence============>
-
-$name2="md abir islam";
-$replaceName=strtr($name2,[
-"md"=>"shrower",
-"abir"=>"hossen",
-"islam"=>"symon"
-]
-);
-echo $replaceName ."\n";
-
-//word repat kora==========>
-
-$repet="!";
-// for($i=0;$i<10;$i++){
-//     echo $repet;
+// if(strpos($name,"who")!==false){
+// echo "found";
+// }else{
+//     echo "not pound";
 // }
-// echo str_repeat($repet,4);
+// echo "$name \n";
 
-for($i=10;$i>0;$i--){
-    echo str_repeat($repet,$i)."\n";
-}
+// //line replace korba ba sentence replace korba===============>
+
+// $name1="symon hossen shrower";
+// $age= "symon";
+// $country="abir";
+
+// $replace=str_replace($age,$country,$name1);
+// echo $replace ."\n";
+
+// //and aro sohoj upai replace sentence============>
+
+// $name2="md abir islam";
+// $replaceName=strtr($name2,[
+// "md"=>"shrower",
+// "abir"=>"hossen",
+// "islam"=>"symon"
+// ]
+// );
+// echo $replaceName ."\n";
+
+// //word repat kora==========>
+
+// $repet="!";
+// // for($i=0;$i<10;$i++){
+// //     echo $repet;
+// // }
+// // echo str_repeat($repet,4);
+
+// for($i=10;$i>0;$i--){
+//     echo str_repeat($repet,$i)."\n";
+// }
 
 
 

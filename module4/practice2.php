@@ -68,14 +68,14 @@
 
 //public==================>
  
-class names{
-    public $name;
-    public function data(){
-        echo "symon";
-    }
-}
-$obj=new names();
-$obj->data();
+// class names{
+//     public $name;
+//     public function data(){
+//         echo "symon";
+//     }
+// }
+// $obj=new names();
+// $obj->data();
 
 //private============================>
 class names{

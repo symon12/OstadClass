@@ -152,9 +152,9 @@
 
 // #count() - Counts the number of elements in an array.
 // $numbers = array(1, 2, 3, 4, 5);
-// echo count($numbers)
+// echo count($numbers);
 
-// #sizeof() - An alias of count(). Also counts the number of elements in an array.
+#sizeof() - An alias of count(). Also counts the number of elements in an array.
 // $numbers = array(1, 2, 3, 4, 5);
 // echo sizeof($numbers);
 
@@ -186,9 +186,9 @@
 
 
 #array_search() - Searches the array for a given value and returns the first corresponding key.
-$assoc = array("first" => "apple", "second" => "banana");
-$key = array_search("apple", $assoc);
-echo $key;
+// $assoc = array("first" => "apple", "second" => "banana");
+// $key = array_search("apple", $assoc);
+// echo $key;
 
 // =============================================
 // Array Transformation Functions
@@ -265,8 +265,12 @@ echo $key;
 // $numbers = array(3, 1, 4, 1, 5);
 // sort($numbers);
 
+// foreach($numbers as $key=>$value){
+//     echo "numbers[" . $key . "] = " . $value. "\n";
+//     // echo"numbers $value \n";
+//     // echo"numbers $key \n";
 
-
+// }
 
 
 
@@ -337,7 +341,7 @@ echo $key;
 
 
 
-// #uksort() - Sorts an array by keys using a user-defined comparison function.
+#uksort() - Sorts an array by keys using a user-defined comparison function.
 
 // $people = array( "Peter" => 35, "Jack" => 32,  "Mary" => 28);
 // function ageComparator($a, $b) {
@@ -443,8 +447,8 @@ echo $key;
 
 // array_diff():
 // Computes the difference of arrays. It compares the values of the first array with the values of following arrays and returns the differences.
-// $array1 = ["a", "b", "c", "d"];
-// $array2 = ["b", "c"];
+// $array1 = ["a", "b", "c","g"];
+// $array2 = ["b", "c","G"];
 // $result = array_diff($array1, $array2);
 // print_r($result);
 
@@ -482,8 +486,8 @@ echo $key;
 // Computes the intersection of arrays with additional index check.
 
 
-// $array1 = ["a" => "green", "b" => "brown", "c" => "blue"];
-// $array2 = ["a" => "green", "b" => "yellow", "c" => "blue"];
+// $array1 = ["a" => "green", "b" => "brown", "c" => "blue","d"=>"dark"];
+// $array2 = ["a" => "green", "b" => "yellow", "c" => "blue","d"=>"dark"];
 // $result = array_intersect_assoc($array1, $array2);
 // print_r($result);
 
@@ -524,7 +528,7 @@ echo $key;
 
 // $input = ["apple", "banana", "cherry", "date", "fig"];
 
-// $randomKey = array_rand($input);
+// $randomKey = array_rand($input);    ===========================>>>
 // echo $input[$randomKey];
 
 // $randomKeys = array_rand($input, 2);
@@ -533,7 +537,7 @@ echo $key;
 
 // #shuffle():Shuffles (randomizes the order of) the elements in an array.
 
-// $numbers = [1, 2, 3, 4, 5];
+// $numbers = ["amir","khan","saruf","khane"];
 // shuffle($numbers);
 // print_r($numbers);
 
@@ -588,7 +592,7 @@ echo $key;
 
 // $input = [12, 10, 9];
 
-// // Positive length will pad to the Right
+// // Positive length will pad to the Right    ============================>>>>>
 // $result = array_pad($input, 5, -1);
 // print_r($result);
 

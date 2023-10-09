@@ -285,7 +285,7 @@
 // $input=[1,2,3,4,3,2,2,3,4,3,6,7];
 // $output=array_unique($input);
 // print_r($output);
-d
+
 // $input=[1,2,3,4,5];
 // $output=array_reverse($input);
 // print_r($output);

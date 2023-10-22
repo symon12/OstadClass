@@ -1,0 +1,7 @@
+user, abc@gmail.com, password123, firstName, lastName, 23
+admin, admin@gmail.com, password1235, firstName, lastName, 34
+user, symon@gmail.com, password1234, firstName, lastName, 45
+
+
+
+ 

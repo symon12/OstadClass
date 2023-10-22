@@ -1,19 +1,19 @@
 <?php
-class Person{
-    public $name;
-    public $age;
-    public function __construct($name,$age){
-        $this->name=$name;
-        $this->age=$age;
-    }
-    public function introduce(){
-       echo" My name is {$this->name} and I am {$this->age} years Old";
+// class Person{
+//     public $name;
+//     public $age;
+//     public function __construct($name,$age){
+//         $this->name=$name;
+//         $this->age=$age;
+//     }
+//     public function introduce(){
+//        echo" My name is {$this->name} and I am {$this->age} years Old";
         
-    }
+//     }
          
-    }
-    $person = new person("john",30);
-    $person->introduce();
+//     }
+//     $person = new person("john",30);
+//     $person->introduce();
 
     //task 2
 
@@ -25,16 +25,16 @@ class Person{
             $this->name = $name;
             $this->age = $age;
         }
-    
-        public function getName() {
-            return "My name is ". $this->name.",";
-        }
-    
-        public function getAge() {
-    
-            return "I am {$this->age} years old";
+        
+        function introduce(){
+            echo "My name is ". $this->name.", "."I am {$this->age} years old";
         }
     }
+    
+    $person = new person("john",30);
+    $person->introduce()."/n";
+    
+    
     
     class Student extends Person {
         private $mark;
@@ -50,10 +50,15 @@ class Person{
     
         public function calculate_grade_percentage() {
             $percentage = ($this->mark / 100) * 100;
-            echo "{$this->getName()} {$this->getAge()} \n";
+            echo $this->introduce();
             echo "My grade percentage is  {$percentage}%";
         }
     }
+    
+    // Example usage:
+    $student = new Student("Alice", 18, 85);
+    echo $student->calculate_grade_percentage();
+    
     
 
 
@@ -83,8 +88,6 @@ class Person{
 //        }
 //     }
 
-// $student = new Student("Robert", 18, “85”);
+// $student = new Student("Robert", 18, "85");
 
 // $student->introduce();
-
-    

@@ -240,15 +240,15 @@
 //to string hocca oop ta echo kora>>>>>>>>>>>>>>
 
 
-class gets{
+// class gets{
 
-    public function __toString()
-    {
+//     public function __toString()
+//     {
         
-        return "gets number :";
-    }
-}
-$obj=new gets();
+//         return "gets number :";
+//     }
+// }
+// $obj=new gets();
 
- echo $obj;
+//  echo $obj;
 

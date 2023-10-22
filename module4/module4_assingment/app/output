@@ -1,0 +1,44 @@
+Title: Task 1
+Description: Should be done within Thursday
+Start Date: 04-10-2023
+Due Date: 07-10-2023
+Tags: Frontend, Contact Page
+Assignees: Prince, Rakib
+Priority: Low
+Completed: No
+
+Title: Task 2
+Description: Should be done within Sunday
+Start Date: 06-10-2023
+Due Date: 10-10-2023
+Assignees: Tony
+Priority: Low
+Completed: No
+
+After marking task 1 as completed:
+Completed: Yes
+
+========================================================.>>>>>>>>>>>
+
+Standard Apartment Details:
+Apartment Number: 501
+Area (sq. ft.): 1800
+Number of Bedrooms: 2
+Monthly Rent: $610
+
+Luxury Apartment Details:
+Apartment Number: 502
+Area (sq. ft.): 3000
+Number of Bedrooms: 3
+Monthly Rent: $1950
+Amenities: Swimming Pool, Gym, Parking
+
+Owner Details:
+Owner Name: Salman Khan
+Apartment Number: 501
+Owner Name: Shah Rukh Khan
+Apartment Number: 502
+
+
+
+
